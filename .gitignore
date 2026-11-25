@@ -1,0 +1,39 @@
+# Scalograms (too large for git)
+data/processed/scalograms/**/*.npy
+
+# Documents (papers, only on this computer)
+documents/
+
+# Figures
+figures/scalograms/**/*.png
+!figures/scalograms/.gitkeep
+
+# Thesis figures and their scripts (only on this computer)
+figures/thesis/
+scripts/figures/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiments (only on this computer, the metrics are in metrics/)
+experiments/
+
+# Archive
+archive/
